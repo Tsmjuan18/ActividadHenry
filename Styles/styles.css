@@ -17,19 +17,23 @@
     
 }
 .header h1{
-    color: white;
+    color: rgba(255, 255, 255, 0.767);
     font-size: 100px;
     
 }
 .bloque1 {
     width: 750px;
     display: flex;   
-    gap: 50px;
-    margin: 30px 0 0 400px;
+    gap: 50px; 
+    margin: 30px 0 0 569px;
     
     
     
    
+}
+
+#musica{
+    color:white;
 }
 .texto {
     gap: 30px   ;
@@ -53,21 +57,27 @@
 }
 .texto a{
     text-decoration: none;
-    background: #FF6666;
-    width: 100px;
+    background: #FF6666;    
     color: white;
-    padding: 10px;      
-    border-radius: 10px;
+    padding: 10px;    
     font-size: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    text-align: center;
+    width:180px ;
+    border-radius: 10px;
 
+}
+
+.titulo{
+    color: #ff6666;
 }
 
 .bloque2 {
     width: 750px;
     display: flex;   
     gap: 50px;
-    margin: 80px 0 0 400px;
+    margin: 30px 0 0 569px;
+
     
    
 }
@@ -95,13 +105,14 @@
 }
 .contenido2 a{
     text-decoration: none;
-    background: #FF6666;
-    width: 100px;
+    background: #FF6666;   
     color: white;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 10px;    
     font-size: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    text-align: center;
+    width:180px ;
+    border-radius: 10px;
 
 }
 
@@ -124,6 +135,8 @@
     width: 500px;
     text-align: justify;
     gap: 30px;
+    margin: 30px 0 0 246px;
+
 }
 .contenido3 h2{
     color: white;
@@ -137,8 +150,9 @@
 .contenido3 a {
     background: #FF6666;
     text-decoration: none;
+    text-align: center;
     color: white;
-    width:100px ;
+    width:180px ;
     border-radius: 10px;
     padding: 10px;
 }
@@ -155,24 +169,42 @@ footer{
 .lista{
     display: flex;
     gap: 20px;    
+    
+}
 
+.lista li{
+    padding: 10px 0;
 }
 .targeta{
+    
     margin-left: 300px;
     height: 400px ;
     display: flex;
+    flex-direction: column;    
     justify-content: center;
-    align-items: center;
+    align-content: center;
     color: rgb(255, 255, 255);
 
     border-radius: 2px solid white;
 }
 
+.targeta h3{
+    padding: 20px 0 20px 0;
+    justify-content: center;
+    text-align: justify;
+    align-self: self-start;
+    
+    
+    
+}
 .info-final{
+    border-top: 2px solid white;
     color: white;
     display: flex;
     justify-content: space-between;
     margin: 0 40px 0px 40px;
+    height: 100px;
+    align-items: center;
     
 }
 
